@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1{
@@ -54,10 +54,13 @@ padding-bottom: 4.5rem;
   margin: 5% 3% 5% 0;
 }
 
+/* Title Image */
 
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 
@@ -65,6 +68,9 @@ padding-bottom: 4.5rem;
 
 #features{
   padding: 7% 15%;
+  background-color: :#fff;
+  position: relative;
+
 }
 .feature-box{
   text-align: center;
@@ -108,10 +114,47 @@ padding-bottom: 4.5rem;
 }
 /* Pricing Section */
 
-.#pricing{
+#pricing{
 padding:  100px;
+text-align: center;
 }
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta{
+  background-color: #b8b5ff;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: "Monserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media(max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
 }
