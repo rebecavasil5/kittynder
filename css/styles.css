@@ -3,7 +3,7 @@ body{
 }
 
 #title{
-  background-color: #b4aee8;
+  background-color: #b8b5ff;
   color: #fff;
 }
 
@@ -23,7 +23,9 @@ h2{
 }
 
 h3{
-  font-family: "Montserrat-Bold"
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 p{
@@ -77,7 +79,7 @@ padding-bottom: 4.5rem;
   padding: 5%;
 }
 .icon{
-  color: #b8b5ff;
+  color: #fbaccc;
   margin-bottom: 1rem;
 }
 
@@ -103,7 +105,7 @@ padding-bottom: 4.5rem;
     padding: 7% 15%;
 }
 #press{
-  background-color: #b8b5ff;
+  background-color: #ffe3fe;
   text-align: center;
   padding-bottom: 3%;
 
@@ -131,7 +133,6 @@ text-align: center;
   padding: 7% 15%;
   text-align: center;
 }
-
 .cta-heading{
   font-family: "Monserrat-Black";
   font-size: 3.5rem;
